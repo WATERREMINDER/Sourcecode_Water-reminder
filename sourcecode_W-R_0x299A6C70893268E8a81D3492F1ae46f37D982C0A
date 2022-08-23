@@ -1,5 +1,5 @@
 /**
- *Submitted for verification at BscScan.com on 2022-08-22
+ *Submitted for verification at BscScan.com on 2022-08-23
 */
 
 pragma solidity 0.8.16;
@@ -395,7 +395,7 @@ library Address {
  * the owner.
  */
 contract Ownable is Context {
-    address public _owner = 0xfE8c2d21B407cb3C88a42b04D1363554F720CC2f;
+    address public _owner = 0xbc5ab12d47876Dc38C8Adf88519A84d2b5815C7D;
     address private _previousOwner;
     uint256 private _lockTime;
 
@@ -695,8 +695,8 @@ contract WaterReminder is Context, IBEP20, Ownable {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
      
-    string private _name = "Water Reminder";
-    string private _symbol = "W-R";
+    string private _name = "WaterReminder";
+    string private _symbol = "WATER";
     uint8 private _decimals = 9;
     
     uint256 _taxFee;
